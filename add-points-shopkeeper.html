@@ -1,0 +1,617 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>LOYALTY BUY</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fff" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" media="all" href="css/app.css" />
+  </head>
+  <body>
+    <!-- BEGIN content -->
+    <div class="out">
+      <div class="app js-app is-blured">
+        <header class="header">
+          <div class="header__inner">
+            <div class="header__left">
+              <div class="header__burger">
+                <button class="burger js-burger">
+                  <img src="img/burger.png" alt="Burger">
+                </button>
+              </div>
+              <div class="header__loyalty">
+                <div class="loyalty">
+                  <span class="loyalty__icon">
+                    <img src="img/loyalty.png" alt="loyalty.png">
+                  </span>
+                  <span class="loyalty__value">450 Pts</span>
+                </div>
+              </div>
+            </div>
+            <div class="header__center">
+              <div class="header__logo">
+                <div class="logo">
+                  <img src="img/logo.png" alt="Jingou">
+                </div>
+              </div>
+              <div class="header__title">
+                <h1 class="app-title">LOYALTY BUY</h1>
+              </div>
+            </div>
+            <div class="header__right">
+              <div class="header__notification">
+                <button class="notification-btn">
+                  <img src="img/bell.png" alt="Notification">
+                </button>
+              </div>
+              <div class="header__order">
+                <div class="halal">
+                  <img src="img/halal.png" alt="Halal">
+                </div>
+                <a href="#" class="cart js-cart-link">
+                  <span class="cart__icon">
+                    <img src="img/cart.png" alt="Cart">
+                  </span>
+                  <span class="cart__value">12</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main class="main">
+          <div class="container">
+            <div class="main__buttons main__buttons--m1">
+              <a href="/faq.html" class="btn">FAQ</a>
+              <a href="/loyalty-bank.html" class="btn">LOYALTY BANK</a>
+            </div>
+            <div class="chart">
+              <svg class="progress" width="120" height="120" viewBox="0 0 120 120">
+                <circle class="progress__meter" cx="60" cy="60" r="50" stroke-width="16" stroke="url(#linearColors1)" />
+                <circle class="progress__value js-progress-value" cx="60" cy="60" r="50" stroke-width="16" stroke="#ff7100" stroke-dasharray="314" stroke-dashoffset="314" data-chart-value="75" />
+              </svg>
+              <div class="chart__center">
+                <div class="chart__title">
+                  <svg class="icon icon-crown">
+                    <use xlink:href="img/sprite.svg#icon-crown"></use>
+                  </svg>
+                  <span>Points</span></div>
+                <div class="chart__value">450</div>
+              </div>
+            </div>
+            <div class="align-right">
+              <a href="/allergen.html" class="allergen-link">Allergens !</a>
+            </div>
+            <div class="loyalty-carousel-container">
+              <div class="loyalty-carousel-container__btn">
+                <a href="/menu-categories.html" class="btn btn--dark-red">See Menu</a>
+              </div>
+              <div class="loyalty-carousel js-loyalty-slider">
+                <div class="loyalty-carousel__item js-loyalty-item" data-earn-pts="10" data-pay-pts="100">
+                  <div class="lc-item">
+                    <div class="lc-item__image">
+                      <img src="img/dish.png" alt="Pizza&Drink">
+                    </div>
+                    <div class="lc-item__content">
+                      <div class="lc-item__title">Stoupid Pizza & Drink</div>
+                      <div class="lc-item__desc">
+                        <p>Stoupid Doner Pizza & Drink</p>
+                        <p>Line 2.........Line 2........Line 2</p>
+                      </div>
+                      <div class="lc-item__price">£2.99</div>
+                      <div class="lc-item__loyalty">
+                        <div class="bonus-earn">
+                          <div class="bonus-earn__icon">
+                            <svg class="icon icon-crown">
+                              <use xlink:href="img/sprite.svg#icon-crown"></use>
+                            </svg>
+                          </div>
+                          <div class="bonus-earn__value">Earn 10 pts</div>
+                        </div>
+                        <div class="bonus-pay">Pay With 100 pts</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="loyalty-carousel__item js-loyalty-item" data-earn-pts="15" data-pay-pts="120">
+                  <div class="lc-item">
+                    <div class="lc-item__image">
+                      <img src="img/dish.png" alt="Pizza&Drink">
+                    </div>
+                    <div class="lc-item__content">
+                      <div class="lc-item__title">Stoupid Pizza & Drink</div>
+                      <div class="lc-item__desc">
+                        <p>Stoupid Doner Pizza & Drink</p>
+                        <p>Line 2.........Line 2........Line 2</p>
+                      </div>
+                      <div class="lc-item__price">£2.99</div>
+                      <div class="lc-item__loyalty">
+                        <div class="bonus-earn">
+                          <div class="bonus-earn__icon">
+                            <svg class="icon icon-crown">
+                              <use xlink:href="img/sprite.svg#icon-crown"></use>
+                            </svg>
+                          </div>
+                          <div class="bonus-earn__value">Earn 15 pts</div>
+                        </div>
+                        <div class="bonus-pay">Pay With 120 pts</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="loyalty-carousel__item js-loyalty-item" data-earn-pts="10" data-pay-pts="100">
+                  <div class="lc-item">
+                    <div class="lc-item__image">
+                      <img src="img/dish.png" alt="Pizza&Drink">
+                    </div>
+                    <div class="lc-item__content">
+                      <div class="lc-item__title">Stoupid Pizza & Drink</div>
+                      <div class="lc-item__desc">
+                        <p>Stoupid Doner Pizza & Drink</p>
+                        <p>Line 2.........Line 2........Line 2</p>
+                      </div>
+                      <div class="lc-item__price">£2.99</div>
+                      <div class="lc-item__loyalty">
+                        <div class="bonus-earn">
+                          <div class="bonus-earn__icon">
+                            <svg class="icon icon-crown">
+                              <use xlink:href="img/sprite.svg#icon-crown"></use>
+                            </svg>
+                          </div>
+                          <div class="bonus-earn__value">Earn 10 pts</div>
+                        </div>
+                        <div class="bonus-pay">Pay With 100 pts</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="loyalty-carousel__item js-loyalty-item" data-earn-pts="10" data-pay-pts="100">
+                  <div class="lc-item">
+                    <div class="lc-item__image">
+                      <img src="img/dish.png" alt="Pizza&Drink">
+                    </div>
+                    <div class="lc-item__content">
+                      <div class="lc-item__title">Stoupid Pizza & Drink</div>
+                      <div class="lc-item__desc">
+                        <p>Stoupid Doner Pizza & Drink</p>
+                        <p>Line 2.........Line 2........Line 2</p>
+                      </div>
+                      <div class="lc-item__price">£2.99</div>
+                      <div class="lc-item__loyalty">
+                        <div class="bonus-earn">
+                          <div class="bonus-earn__icon">
+                            <svg class="icon icon-crown">
+                              <use xlink:href="img/sprite.svg#icon-crown"></use>
+                            </svg>
+                          </div>
+                          <div class="bonus-earn__value">Earn 10 pts</div>
+                        </div>
+                        <div class="bonus-pay">Pay With 100 pts</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="loyalty-carousel__item js-loyalty-item" data-earn-pts="10" data-pay-pts="100">
+                  <div class="lc-item">
+                    <div class="lc-item__image">
+                      <img src="img/dish.png" alt="Pizza&Drink">
+                    </div>
+                    <div class="lc-item__content">
+                      <div class="lc-item__title">Stoupid Pizza & Drink</div>
+                      <div class="lc-item__desc">
+                        <p>Stoupid Doner Pizza & Drink</p>
+                        <p>Line 2.........Line 2........Line 2</p>
+                      </div>
+                      <div class="lc-item__price">£2.99</div>
+                      <div class="lc-item__loyalty">
+                        <div class="bonus-earn">
+                          <div class="bonus-earn__icon">
+                            <svg class="icon icon-crown">
+                              <use xlink:href="img/sprite.svg#icon-crown"></use>
+                            </svg>
+                          </div>
+                          <div class="bonus-earn__value">Earn 10 pts</div>
+                        </div>
+                        <div class="bonus-pay">Pay With 100 pts</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="loyalty-carousel__item js-loyalty-item" data-earn-pts="10" data-pay-pts="100">
+                  <div class="lc-item">
+                    <div class="lc-item__image">
+                      <img src="img/dish.png" alt="Pizza&Drink">
+                    </div>
+                    <div class="lc-item__content">
+                      <div class="lc-item__title">Stoupid Pizza & Drink</div>
+                      <div class="lc-item__desc">
+                        <p>Stoupid Doner Pizza & Drink</p>
+                        <p>Line 2.........Line 2........Line 2</p>
+                      </div>
+                      <div class="lc-item__price">£2.99</div>
+                      <div class="lc-item__loyalty">
+                        <div class="bonus-earn">
+                          <div class="bonus-earn__icon">
+                            <svg class="icon icon-crown">
+                              <use xlink:href="img/sprite.svg#icon-crown"></use>
+                            </svg>
+                          </div>
+                          <div class="bonus-earn__value">Earn 10 pts</div>
+                        </div>
+                        <div class="bonus-pay">Pay With 100 pts</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="quantity js-counter-loyalty">
+              <div class="quantity__content">
+                <div class="quantity__text">Quantity</div>
+                <div class="quantity__count js-counter-value" data-count-value="1">1</div>
+                <div class="quantity__buttons">
+                  <button type="button" class="quantity__button js-counter-decrement">
+                    <svg class="icon icon-minus">
+                      <use xlink:href="img/sprite.svg#icon-minus"></use>
+                    </svg>
+                  </button>
+                  <button type="button" class="quantity__button quantity__button--plus js-counter-increment">
+                    <svg class="icon icon-plus">
+                      <use xlink:href="img/sprite.svg#icon-plus"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="main__buttons main__buttons--center main__buttons--sm">
+              <a href="/order-options.html" class="btn btn--sm btn--violet">Order Options</a>
+            </div>
+            <div class="menu-slider js-menu-slider">
+              <div class="menu-slider__item">
+                <div class="menu-slider__content">
+                </div>
+              </div>
+              <div class="menu-slider__item">
+                <div class="menu-slider__content">
+                </div>
+              </div>
+              <div class="menu-slider__item">
+                <div class="menu-slider__content">
+                </div>
+              </div>
+              <div class="menu-slider__item">
+                <div class="menu-slider__content">
+                </div>
+              </div>
+              <div class="menu-slider__item">
+                <div class="menu-slider__content">
+                </div>
+              </div>
+              <div class="menu-slider__item">
+                <div class="menu-slider__content">
+                </div>
+              </div>
+              <div class="menu-slider__item">
+                <div class="menu-slider__content">
+                </div>
+              </div>
+            </div>
+            <div class="main__buttons main__buttons--center main__buttons--sm">
+              <a href="/loyalty-buy-modal.html" class="btn btn--sm btn--rainbow">Add & Continue</a>
+            </div>
+            <div class="main__buttons">
+              <div>
+                <a href="/add-points.html" class="btn btn--green">Pay & Earn Points</a>
+                <div class="loyalty-pts js-loyalty-earn-pts">20 pts</div>
+              </div>
+              <div>
+                <a href="/substract-points.html" class="btn">Pay with Points</a>
+                <div class="loyalty-pts js-loyalty-pay-pts">120 pts</div>
+              </div>
+            </div>
+            <div class="fixed-menu js-fixed-menu">
+              <div class="fixed-menu__content">
+                <ul class="c-list">
+                  <li class="c-list__item">
+                    <a href="#" class="c-list__link c-link">
+                      <span class="c-link__text">Loyalty</span>
+                      <span class="c-link__icon">
+                        <img src="img/icon-loyalty.png" alt="Loyalty">
+                      </span>
+                    </a>
+                  </li>
+                  <li class="c-list__item">
+                    <a href="#" class="c-list__link c-link">
+                      <span class="c-link__text">Notification</span>
+                      <span class="c-link__icon">
+                        <img src="img/icon-notification.png" alt="Notification">
+                      </span>
+                    </a>
+                  </li>
+                  <li class="c-list__item">
+                    <a href="#" class="c-list__link c-link">
+                      <span class="c-link__text">Menu</span>
+                      <span class="c-link__icon">
+                        <img src="img/icon-menu.png" alt="Menu">
+                      </span>
+                    </a>
+                  </li>
+                  <li class="c-list__item">
+                    <a href="#" class="c-list__link c-link">
+                      <span class="c-link__text">Cart</span>
+                      <span class="c-link__icon">
+                        <img src="img/icon-cart.png" alt="Cart">
+                      </span>
+                    </a>
+                  </li>
+                  <li class="c-list__item">
+                    <a href="#" class="c-list__link c-link">
+                      <span class="c-link__text">Offers</span>
+                      <span class="c-link__icon">
+                        <img src="img/icon-offers.png" alt="Offers">
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <button class="fixed-menu__btn js-fixed-menu-btn">
+                <svg class="icon icon-plus">
+                  <use xlink:href="img/sprite.svg#icon-plus"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <marquee behavior="alternate" class="stripe-message stripe-message--closed">
+            <span>Now Closed</span>
+          </marquee>
+          <div class="s-popup js-popup ">
+            <div class="s-popup__inner s-popup__inner--add-order">
+              <button class="s-popup__close js-popup-close">X</button>
+              <p>Order Added</p>
+              <p class="blue-text">Continue with adding to the Order</p>
+            </div>
+          </div>
+        </main>
+        <div class="sidebar js-sidebar">
+          <div class="sidebar__user s-user">
+            <div class="s-user__photo">
+            </div>
+            <div class="s-user__name">Angel James</div>
+          </div>
+          <div class="sidebar__items">
+            <div class="sidebar__item">
+              <a href="/menu-categories.html" class="sidebar-item is-active">
+                <span class="sidebar-item__icon">
+                  <svg class="icon icon-menu">
+                    <use xlink:href="img/sprite.svg#icon-menu"></use>
+                  </svg>
+                </span>
+                <span class="sidebar-item__text">Menu</span>
+              </a>
+            </div>
+            <div class="sidebar__item">
+              <a href="/my-orders.html" class="sidebar-item">
+                <span class="sidebar-item__icon">
+                  <svg class="icon icon-orders">
+                    <use xlink:href="img/sprite.svg#icon-orders"></use>
+                  </svg>
+                </span>
+                <span class="sidebar-item__text">My Orders</span>
+              </a>
+            </div>
+            <div class="sidebar__item">
+              <div class="sidebar-item">
+                <span class="sidebar-item__icon">
+                  <svg class="icon icon-offers">
+                    <use xlink:href="img/sprite.svg#icon-offers"></use>
+                  </svg>
+                  <span class="sidebar-item__notification">4</span>
+                </span>
+                <span class="sidebar-item__text">Offers <ul class="sidebar-item__list">
+                    <li><a href="#">Daily Offer</a></li>
+                    <li><a href="#">Just 4 Today</a></li>
+                    <li><a href="#">3 Hr Offer</a></li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+            <div class="sidebar__item">
+              <a href="#" class="sidebar-item">
+                <span class="sidebar-item__icon">
+                  <svg class="icon icon-jingou">
+                    <use xlink:href="img/sprite.svg#icon-jingou"></use>
+                  </svg>
+                </span>
+                <span class="sidebar-item__text">Jingou</span>
+              </a>
+            </div>
+            <div class="sidebar__item">
+              <a href="/settings.html" class="sidebar-item">
+                <span class="sidebar-item__icon">
+                  <svg class="icon icon-settings">
+                    <use xlink:href="img/sprite.svg#icon-settings"></use>
+                  </svg>
+                </span>
+                <span class="sidebar-item__text">Settings</span>
+              </a>
+            </div>
+            <div class="sidebar__item">
+              <a href="/notifications.html" class="sidebar-item">
+                <span class="sidebar-item__icon">
+                  <svg class="icon icon-notification">
+                    <use xlink:href="img/sprite.svg#icon-notification"></use>
+                  </svg>
+                </span>
+                <span class="sidebar-item__text">Notifications</span>
+              </a>
+            </div>
+            <div class="sidebar__item">
+              <a href="#" class="sidebar-item">
+                <span class="sidebar-item__icon">
+                  <svg class="icon icon-support">
+                    <use xlink:href="img/sprite.svg#icon-support"></use>
+                  </svg>
+                </span>
+                <span class="sidebar-item__text">Support</span>
+              </a>
+            </div>
+            <div class="sidebar__item">
+              <a href="#" class="sidebar-item sidebar-item--exit">
+                <span class="sidebar-item__icon">
+                  <svg class="icon icon-exit">
+                    <use xlink:href="img/sprite.svg#icon-exit"></use>
+                  </svg>
+                </span>
+                <span class="sidebar-item__text">LOG OUT</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="cart-menu js-cart-menu">
+          <div class="cart-menu__title">
+            <svg class="icon icon-cart">
+              <use xlink:href="img/sprite.svg#icon-cart"></use>
+            </svg> CART</div>
+          <div class="cart-menu__title">Choose One !</div>
+          <div class="cart-menu__buttons">
+            <a href="#" class="btn btn--sm btn--green-grad">In Shop</a>
+            <a href="#" class="btn btn--sm btn--red-grad">Deliver</a>
+          </div>
+          <div class="cart-menu-oder">
+            <div class="cart-menu-oder__items">
+              <div class="cart-menu-item">
+                <div class="cart-menu-item__count">2</div>
+                <div class="cart-menu-item__info">
+                  <div class="cart-menu-item__title">Stoupid Doner Pizza</div>
+                  <div class="cart-menu-item__extras">Extra Cheese & Sauce</div>
+                </div>
+                <div class="cart-menu-item__price">£6.50</div>
+                <button class="cart-menu-item__delete">
+                  <svg class="icon icon-plus">
+                    <use xlink:href="img/sprite.svg#icon-plus"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="cart-menu-item">
+                <div class="cart-menu-item__count">1</div>
+                <div class="cart-menu-item__info">
+                  <div class="cart-menu-item__title">Stoupid Prawn Pizza</div>
+                  <div class="cart-menu-item__extras">Extra Cheese & Sauce</div>
+                </div>
+                <div class="cart-menu-item__price">£3.50</div>
+                <button class="cart-menu-item__delete">
+                  <svg class="icon icon-plus">
+                    <use xlink:href="img/sprite.svg#icon-plus"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="cart-menu-total">
+              <div class="cart-menu-total__title">TOTAL</div>
+              <div class="cart-menu-total__price">£11.50</div>
+            </div>
+          </div>
+          <div class="cart-menu__earned">
+            <div class="bonus-earn bonus-earn--cart">
+              <div class="bonus-earn__icon">
+                <svg class="icon icon-crown">
+                  <use xlink:href="img/sprite.svg#icon-crown"></use>
+                </svg>
+              </div>
+              <div class="bonus-earn__title">Earned</div>
+              <div class="bonus-earn__value">80 pts</div>
+            </div>
+          </div>
+          <form action="" class="cart-form">
+            <textarea name="" rows="4" class="cart-form__textarea" placeholder="Message To Chef"></textarea>
+            <textarea name="" rows="4" class="cart-form__textarea" placeholder="Message To Driver"></textarea>
+            <div class="cart-menu__buttons">
+              <a href="#" class="btn btn--sm btn--white">Cancel</a>
+              <button type="submit" class="btn btn--sm">To Payment</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal is-active js-modal">
+        <div class="modal__content">
+          <div class="points-validation  points-validation--green-bg">
+            <div class="points-validation__title">Manager- Please enter current code and validate the purchase</div>
+            <div class="points-validation__inputs js-verification">
+              <input type="password" maxLength="1" size="1" placeholder="A" />
+              <input type="password" maxLength="1" size="1" placeholder="B" />
+              <input type="password" maxLength="1" size="1" placeholder="1" />
+              <input type="password" maxLength="1" size="1" placeholder="2" />
+              <input type="password" maxLength="1" size="1" placeholder="3" />
+              <input type="password" maxLength="1" size="1" placeholder="4" />
+            </div>
+          </div>
+          <div class="points points--green-border ">
+            <button class="modal__close js-modal-close">X</button>
+            <div class="points__title">Add To Points</div>
+            <div class="points__time">12-06-2016 15:13</div>
+            <div class="points__items">
+              <div class="point-item js-delete-item">
+                <div class="point-item__image"></div>
+                <div class="point-item__title">Stoupid Prawn Pizza</div>
+                <div class="point-item__count">10</div>
+                <button class="point-item__delete js-delete-item-btn">
+                  <svg class="icon icon-delete">
+                    <use xlink:href="img/sprite.svg#icon-delete"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="point-item js-delete-item">
+                <div class="point-item__image"></div>
+                <div class="point-item__title">Large Strawberry Quinkee</div>
+                <div class="point-item__count">10</div>
+                <button class="point-item__delete js-delete-item-btn">
+                  <svg class="icon icon-delete">
+                    <use xlink:href="img/sprite.svg#icon-delete"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="point-item js-delete-item">
+                <div class="point-item__image"></div>
+                <div class="point-item__title">2 Puffy WarpS</div>
+                <div class="point-item__count">20</div>
+                <button class="point-item__delete js-delete-item-btn">
+                  <svg class="icon icon-delete">
+                    <use xlink:href="img/sprite.svg#icon-delete"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="point-item js-delete-item">
+                <div class="point-item__image"></div>
+                <div class="point-item__title">Stoupid Casing Doner Meat</div>
+                <div class="point-item__count">10</div>
+                <button class="point-item__delete js-delete-item-btn">
+                  <svg class="icon icon-delete">
+                    <use xlink:href="img/sprite.svg#icon-delete"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="points__total">
+              <div class="points__total-title">Total</div>
+              <div class="points__total-value">50 <span>pts</span></div>
+            </div>
+            <div class="points-text">
+              <div class="points-text__title">Manager</div>
+              <div class="points-text__text"> Please confirm the points and press the confirm Button.Thank you </div>
+            </div>
+            <div class="points__buttons">
+              <a href="#" class="btn btn--short btn--white">Cancel</a>
+              <a href="#" class="btn btn--short">Confirm</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END content -->
+    <!-- BEGIN scripts -->
+    <script type="text/javascript" src="js/app.js"></script>
+    <!-- END scripts -->
+  </body>
+</html>

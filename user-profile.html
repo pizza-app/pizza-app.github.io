@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>USER PROFILE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fff" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" media="all" href="css/app.css" />
+  </head>
+  <body>
+    <!-- BEGIN content -->
+    <div class="out">
+      <div class="app js-app">
+        <header class="header">
+          <div class="header__inner">
+            <div class="header__left">
+              <a href="#" class="header__back">
+                <svg class="icon icon-back-icon">
+                  <use xlink:href="img/sprite.svg#icon-back-icon"></use>
+                </svg>
+              </a>
+              <div class="header__loyalty">
+                <div class="loyalty">
+                  <span class="loyalty__icon">
+                    <img src="img/loyalty.png" alt="loyalty.png">
+                  </span>
+                  <span class="loyalty__value">450 Pts</span>
+                </div>
+              </div>
+            </div>
+            <div class="header__center">
+              <div class="header__logo">
+                <div class="logo">
+                  <img src="img/logo.png" alt="Jingou">
+                </div>
+              </div>
+              <div class="header__title">
+                <h1 class="app-title">USER PROFILE</h1>
+              </div>
+            </div>
+            <div class="header__right">
+              <div class="header__notification">
+                <button class="notification-btn">
+                  <img src="img/bell.png" alt="Notification">
+                </button>
+              </div>
+              <div class="header__order">
+                <div class="halal">
+                  <img src="img/halal.png" alt="Halal">
+                </div>
+                <a href="#" class="cart js-cart-link">
+                  <span class="cart__icon">
+                    <img src="img/cart.png" alt="Cart">
+                  </span>
+                  <span class="cart__value">12</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main class="main">
+          <div class="container">
+            <div class="profile-page">
+              <div class="profile-photo">
+                <div class="profile-photo__placeholder">Add Your Picture</div>
+              </div>
+              <div class="text-lg text-lg--center">Angel James</div>
+              <div class="profile-items">
+                <div class="profile-item">
+                  <div class="profile-item__title">angle.james@gmail.com</div>
+                  <a href="/edit-profile.html" class="profile-item__edit">
+                    <svg class="icon icon-pen">
+                      <use xlink:href="img/sprite.svg#icon-pen"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="profile-item">
+                  <div class="profile-item__title">1234 5678 910</div>
+                </div>
+              </div>
+              <a href="/change-password.html" class="profile-password-link">
+                <span class="profile-password-link__icon">
+                  <svg class="icon icon-lock">
+                    <use xlink:href="img/sprite.svg#icon-lock"></use>
+                  </svg>
+                </span>
+                <span class="profile-password-link__title">Change Password</span>
+                <span class="profile-password-link__arrow">
+                  <svg class="icon icon-bottom">
+                    <use xlink:href="img/sprite.svg#icon-bottom"></use>
+                  </svg>
+                </span>
+              </a>
+              <div class="profile-address js-delete-item">
+                <div class="profile-address__title">
+                  <span>Angel James</span>
+                  <button class="profile-address__delete js-delete-item-btn">
+                    <svg class="icon icon-basket">
+                      <use xlink:href="img/sprite.svg#icon-basket"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="profile-address__content">
+                  <p>84 Holmsdale Road. Coventry</p>
+                  <p>+44 721170134</p>
+                  <p>Angel@hotmail.com</p>
+                </div>
+              </div>
+              <!--<a href="#" class="profile-new-address">+ Add New Address</a>-->
+            </div>
+          </div>
+        </main>
+        <div class="cart-menu js-cart-menu">
+          <div class="cart-menu__title">
+            <svg class="icon icon-cart">
+              <use xlink:href="img/sprite.svg#icon-cart"></use>
+            </svg> CART</div>
+          <div class="cart-menu__title">Choose One !</div>
+          <div class="cart-menu__buttons">
+            <a href="#" class="btn btn--sm btn--green-grad">In Shop</a>
+            <a href="#" class="btn btn--sm btn--red-grad">Deliver</a>
+          </div>
+          <div class="cart-menu-oder">
+            <div class="cart-menu-oder__items">
+              <div class="cart-menu-item">
+                <div class="cart-menu-item__count">2</div>
+                <div class="cart-menu-item__info">
+                  <div class="cart-menu-item__title">Stoupid Doner Pizza</div>
+                  <div class="cart-menu-item__extras">Extra Cheese & Sauce</div>
+                </div>
+                <div class="cart-menu-item__price">£6.50</div>
+                <button class="cart-menu-item__delete">
+                  <svg class="icon icon-plus">
+                    <use xlink:href="img/sprite.svg#icon-plus"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="cart-menu-item">
+                <div class="cart-menu-item__count">1</div>
+                <div class="cart-menu-item__info">
+                  <div class="cart-menu-item__title">Stoupid Prawn Pizza</div>
+                  <div class="cart-menu-item__extras">Extra Cheese & Sauce</div>
+                </div>
+                <div class="cart-menu-item__price">£3.50</div>
+                <button class="cart-menu-item__delete">
+                  <svg class="icon icon-plus">
+                    <use xlink:href="img/sprite.svg#icon-plus"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="cart-menu-total">
+              <div class="cart-menu-total__title">TOTAL</div>
+              <div class="cart-menu-total__price">£11.50</div>
+            </div>
+          </div>
+          <div class="cart-menu__earned">
+            <div class="bonus-earn bonus-earn--cart">
+              <div class="bonus-earn__icon">
+                <svg class="icon icon-crown">
+                  <use xlink:href="img/sprite.svg#icon-crown"></use>
+                </svg>
+              </div>
+              <div class="bonus-earn__title">Earned</div>
+              <div class="bonus-earn__value">80 pts</div>
+            </div>
+          </div>
+          <form action="" class="cart-form">
+            <textarea name="" rows="4" class="cart-form__textarea" placeholder="Message To Chef"></textarea>
+            <textarea name="" rows="4" class="cart-form__textarea" placeholder="Message To Driver"></textarea>
+            <div class="cart-menu__buttons">
+              <a href="#" class="btn btn--sm btn--white">Cancel</a>
+              <button type="submit" class="btn btn--sm">To Payment</button>
+            </div>
+          </form>
+        </div>
+        <div class="profile-decos">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- END content -->
+    <!-- BEGIN scripts -->
+    <script type="text/javascript" src="js/app.js"></script>
+    <!-- END scripts -->
+  </body>
+</html>

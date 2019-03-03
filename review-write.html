@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>REVIEWS</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fff" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" media="all" href="css/app.css" />
+  </head>
+  <body>
+    <!-- BEGIN content -->
+    <div class="out">
+      <div class="app js-app">
+        <header class="header">
+          <div class="header__inner">
+            <div class="header__left">
+              <a href="#" class="header__back">
+                <svg class="icon icon-back-icon">
+                  <use xlink:href="img/sprite.svg#icon-back-icon"></use>
+                </svg>
+              </a>
+              <div class="header__loyalty">
+                <div class="loyalty">
+                  <span class="loyalty__icon">
+                    <img src="img/loyalty.png" alt="loyalty.png">
+                  </span>
+                  <span class="loyalty__value">450 Pts</span>
+                </div>
+              </div>
+            </div>
+            <div class="header__center">
+              <div class="header__logo">
+                <div class="logo">
+                  <img src="img/logo.png" alt="Jingou">
+                </div>
+              </div>
+              <div class="header__title">
+                <h1 class="app-title">REVIEWS</h1>
+              </div>
+            </div>
+            <div class="header__right">
+              <div class="header__notification">
+                <button class="notification-btn">
+                  <img src="img/bell.png" alt="Notification">
+                </button>
+              </div>
+              <div class="header__order">
+                <div class="halal">
+                  <img src="img/halal.png" alt="Halal">
+                </div>
+                <a href="#" class="cart js-cart-link">
+                  <span class="cart__icon">
+                    <img src="img/cart.png" alt="Cart">
+                  </span>
+                  <span class="cart__value">12</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+        <p class="text-lg text-lg--center">Write A Review</p>
+        <form action="" class="taste-form">
+          <div class="taste-form__rate">
+            <p class="text-lg text-lg--center">Taste</p>
+            <div class="taste-form__stars">
+              <div class="rank">
+                <div class="rank__rating">
+                  <input type="radio" id="rate1-5-stars" name="rate" value="5" />
+                  <label for="rate1-5-stars" class="star">
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                  </label>
+                  <input type="radio" id="rate1-4-stars" name="rate" value="4" />
+                  <label for="rate1-4-stars" class="star">
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                  </label>
+                  <input type="radio" id="rate1-3-stars" name="rate" value="3" />
+                  <label for="rate1-3-stars" class="star">
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                  </label>
+                  <input type="radio" id="rate1-2-stars" name="rate" value="2" />
+                  <label for="rate1-2-stars" class="star">
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                  </label>
+                  <input type="radio" id="rate1-1-star" name="rate" value="1" />
+                  <label for="rate1-1-star" class="star">
+                    <svg class="icon icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star"></use>
+                    </svg>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <p>Tap On The Stars To Rate</p>
+          </div>
+          <input type="text" class="taste-form__input" placeholder="Title" maxlength="25">
+          <textarea name="" rows="7" class="taste-form__textarea" placeholder="Write Review (100)"></textarea>
+          <div class="main__buttons">
+            <button type="reset" class="btn btn--white">Clear</button>
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </form>
+        <div class="cart-menu js-cart-menu">
+          <div class="cart-menu__title">
+            <svg class="icon icon-cart">
+              <use xlink:href="img/sprite.svg#icon-cart"></use>
+            </svg> CART</div>
+          <div class="cart-menu__title">Choose One !</div>
+          <div class="cart-menu__buttons">
+            <a href="#" class="btn btn--sm btn--green-grad">In Shop</a>
+            <a href="#" class="btn btn--sm btn--red-grad">Deliver</a>
+          </div>
+          <div class="cart-menu-oder">
+            <div class="cart-menu-oder__items">
+              <div class="cart-menu-item">
+                <div class="cart-menu-item__count">2</div>
+                <div class="cart-menu-item__info">
+                  <div class="cart-menu-item__title">Stoupid Doner Pizza</div>
+                  <div class="cart-menu-item__extras">Extra Cheese & Sauce</div>
+                </div>
+                <div class="cart-menu-item__price">£6.50</div>
+                <button class="cart-menu-item__delete">
+                  <svg class="icon icon-plus">
+                    <use xlink:href="img/sprite.svg#icon-plus"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="cart-menu-item">
+                <div class="cart-menu-item__count">1</div>
+                <div class="cart-menu-item__info">
+                  <div class="cart-menu-item__title">Stoupid Prawn Pizza</div>
+                  <div class="cart-menu-item__extras">Extra Cheese & Sauce</div>
+                </div>
+                <div class="cart-menu-item__price">£3.50</div>
+                <button class="cart-menu-item__delete">
+                  <svg class="icon icon-plus">
+                    <use xlink:href="img/sprite.svg#icon-plus"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="cart-menu-total">
+              <div class="cart-menu-total__title">TOTAL</div>
+              <div class="cart-menu-total__price">£11.50</div>
+            </div>
+          </div>
+          <div class="cart-menu__earned">
+            <div class="bonus-earn bonus-earn--cart">
+              <div class="bonus-earn__icon">
+                <svg class="icon icon-crown">
+                  <use xlink:href="img/sprite.svg#icon-crown"></use>
+                </svg>
+              </div>
+              <div class="bonus-earn__title">Earned</div>
+              <div class="bonus-earn__value">80 pts</div>
+            </div>
+          </div>
+          <form action="" class="cart-form">
+            <textarea name="" rows="4" class="cart-form__textarea" placeholder="Message To Chef"></textarea>
+            <textarea name="" rows="4" class="cart-form__textarea" placeholder="Message To Driver"></textarea>
+            <div class="cart-menu__buttons">
+              <a href="#" class="btn btn--sm btn--white">Cancel</a>
+              <button type="submit" class="btn btn--sm">To Payment</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- END content -->
+    <!-- BEGIN scripts -->
+    <script type="text/javascript" src="js/app.js"></script>
+    <!-- END scripts -->
+  </body>
+</html>
